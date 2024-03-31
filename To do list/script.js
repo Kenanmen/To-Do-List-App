@@ -28,7 +28,7 @@ listContainer.addEventListener("click", function(e){
 } , false);
 
 function saveData(){
-    licalStorage.setItem("data", listContainer.innerHTML);
+    localStorage.setItem("data", listContainer.innerHTML);
 }
 function showTask(){
     listContainer.innerHTML =localStorage.getItem("data");
